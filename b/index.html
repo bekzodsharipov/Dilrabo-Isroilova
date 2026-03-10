@@ -156,6 +156,10 @@
 
       </div>
     </div>
+
+    <script defer>
+      function startTimer(t,e){let n,o,r=t;const a=setInterval((function(){n=parseInt(r/60,10),o=parseInt(r%60,10),n=n<10?"0"+n:n,o=o<10?"0"+o:o,e.textContent=n+":"+o,--r<0&&(clearInterval(a),e.textContent="00:00",console.log("Vaqt tugadi!"))}),1e3)}window.onload=function(){startTimer(120,document.querySelector("#timer"))};
+    </script>
     <script defer src="../js/phoneFormatter.js"></script>
     <script defer src="../js/app.js"></script>
 </body>
