@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilrabo Isroilova</title>
+    <style>
+     *{margin:0;padding:0;box-sizing:border-box}html, body{overflow-x:hidden}body{background-color:#EFEFEF}.hero{padding-top:0;padding-bottom:39px}.hero__container{max-width:440px;margin:0 auto;padding:0 10px;display:flex;flex-direction:column;align-items:center;justify-content:center}.hero__top{display:flex;align-items:center;justify-content:center;padding:24px 37px 25px 38px;border-radius:4px 4px 20px 20px;background-color:white;box-shadow:0px 4px 6.6px 0px #00000026;max-width:406px;width:100%;margin-bottom:20px;gap:clamp(13px, 5vw, 17px)}.hero__top p{font-family:Montserrat, sans-serif;font-weight:700;font-size:clamp(15px, 4.5vw, 20px);line-height:100%;text-align:center;margin-top:3px}.hero__text{font-family:Gilroy, sans-serif;font-weight:500;font-size:clamp(13.5px, 4vw, 15px);line-height:150%;text-align:center;margin-bottom:15px}.hero__title{font-family:"Bebas Neue" , sans-serif;font-weight:700;font-size:clamp(37px, 11vw, 45px);line-height:100%;text-align:center;margin-bottom:10px}.hero__subtitle{font-family:"Bebas Neue" , sans-serif;font-weight:700;font-size:clamp(23.5px, 7.4vw, 30px);line-height:110%;text-align:center;margin-bottom:14px}.hero__images{max-width:226px;width:100%;height:auto;margin-bottom:-27px}.hero__btn{max-width:332px;width:100%;border-radius:50px;background:linear-gradient(90deg, #7D1919 0%, #E36F73 50%, #7D1919 100%);border:0.2px solid #7D1919;box-shadow:0px 7.37px 0px 0px #650707;margin-bottom:19px;padding:25px 0;color:white;font-family:Gilroy, sans-serif;font-weight:800;font-size:20px;line-height:100%;text-align:center;text-transform:uppercase;cursor:pointer}.hero__arrow{display:flex;align-items:center;gap:5px;margin-bottom:20px}.hero__arrow h3{font-family:Montserrat, sans-serif;font-weight:700;font-size:30px;margin-top:15px;line-height:100%}.hero__info{border-radius:30px;max-width:398px;width:100%;border:1px solid #DADADA;background-color:#F9F9F9;margin-bottom:25px;padding:27px 0 25px 29px}.hero__info h4{font-family:Gilroy, sans-serif;font-weight:800;font-size:24px;line-height:150%;text-align:center;margin-bottom:18px}.hero__nav{display:flex;flex-direction:column;gap:20px}.hero__item{display:flex;flex-direction:column;gap:9px}.hero__item span{font-family:Gilroy, sans-serif;font-weight:800;font-size:22px;line-height:150%}.hero__item p{font-family:Gilroy, sans-serif;font-weight:500;font-size:clamp(14.5px, 4.5vw, 18px);line-height:150%}@media (max-width:340px){.hero__info{padding:20px 0 22px 15px}}
+    </style>
+    <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="./css/modal.css" />
+    </noscript>
+
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero__container">
+            <div class="hero__top">
+                <img src="./images/calendar.png" loading="lazy" decoding="async" width="22" height="22" alt="calendar">
+                <p>23-24-25-mart | soat 20:00</p>
+            </div>
+
+            <p class="hero__text">Dilrabo Isroilovadan 3 kunlik <b>BEPUL</b> master klass </p>
+
+            <h1 class="hero__title">AYOLLIK YADROSI</h1>
+            <h2 class="hero__subtitle">Bu bilimlarga ega bo’lgan <br> o’quvchilarim 1 kundayoq hayotlarini <br> butkul
+                o’zgartirib
+                yuborishdi </h2>
+
+
+            <img class="hero__images" src="./images/speaker.avif" loading="lazy" decoding="async" width="226"
+                height="319" alt="speaker">
+            <button class="hero__btn registerBtn">BEPUL QATNASHISH</button>
+
+            <div class="hero__arrow">
+                <img src="./images/arrow.png" loading="lazy" decoding="async" width="47" height="43" alt="arrow">
+                <h3>BEPUL</h3>
+            </div>
+
+
+            <div class="hero__info">
+                <h4>Master klassda siz:</h4>
+                <ul class="hero__nav">
+                    <li class="hero__item">
+                        <span>1-kun:</span>
+
+                        <p>Qanday qilib hayotda o’z o’rnimizga <br> ega bo’lish va o’zimizni topish haqida </p>
+                    </li>
+                    <li class="hero__item">
+                        <span>2-kun:</span>
+
+                        <p>Ichki ishonch, ayollik jozibasi va <br> samootsenkani ko’tarish orqali oilada, <br>
+                            munosabatlarda, jamiyatda o’z <br> o’rningizga ega bo’lishni </p>
+                    </li>
+                    <li class="hero__item">
+                        <span>3-kun:</span>
+
+                        <p>Fikrlarni o’zgartirish orqali daromadni <br> kamida 2 baravarga oshirishni o’rganasiz</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="hero__btn registerBtn">BEPUL QATNASHISH</button>
+
+            <div class="hero__arrow">
+                <img src="./images/arrow.png" loading="lazy" decoding="async" width="47" height="43" alt="arrow">
+                <h3>BEPUL</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="registrationModal" class="homeModal" style="display: none">
+        <div class="homeModalOverlay"></div>
+        <div class="homeFormContainer">
+            <button class="closeButton" id="closeModalBtn" aria-label="Modalni yopish" title="Yopish">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="homeFormTop">
+                <h1 class="homeFormTopTitle">
+                    Bepul qatnashish uchun ma'lumotlaringizni kiriting!
+                </h1>
+            </div>
+            <form id="registrationForm" name="contact-form">
+                <!-- ISM -->
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="name">Ismingiz:</label>
+                    <input class="HomeFormRowInput" type="text" id="name" name="name" placeholder="Ismingizni kiriting"
+                        autocomplete="name" />
+                    <p class="homeFormErrorText" id="nameError" style="display: none">
+                        ❌ Ismingizni kiriting!
+                    </p>
+                </div>
+
+                <!-- TELEFON -->
+                <div class="HomeFormRow">
+                    <label class="HomeFormRowLabel" for="phone">Telefon raqamingiz:</label>
+
+                    <div class="phone-input-container">
+                        <!-- LEFT: country -->
+                        <button type="button" class="selected-country" id="selectedCountry">
+                            <span class="selected-flag" id="selectedCountryFlag">🇺🇿</span>
+
+                            <svg id="dropdownIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                            <span class="selected-code" id="selectedCountryCodeText">+998</span>
+                        </button>
+
+                        <!-- dropdown -->
+                        <div class="country-dropdown" id="countryDropdown" style="display:none"></div>
+
+                        <!-- RIGHT: phone input (number span inside) -->
+                        <div class="phone-field">
+                            <input class="HomeFormRowInput phone-input" type="tel" id="phone" name="phone"
+                                inputmode="numeric" placeholder="88 888 88 88" autocomplete="tel"
+                                style="border: none; background-color: transparent;padding-left: 5px;" />
+                        </div>
+                    </div>
+
+                    <p class="homeFormErrorText" id="phoneError" style="display:none">
+                        ❌ Telefon raqam mos emas!
+                    </p>
+                </div>
+
+                <button type="submit" class="HomeFormBtn" id="submitBtn">
+                    DAVOM ETISH
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <script defer src="./js/phoneFormatter.js"></script>
+    <script defer src="./js/app.js"></script>
+</body>
+
+</html>
